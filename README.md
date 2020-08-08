@@ -20,9 +20,15 @@ https://b23.tv/av98281860/p1
 # 编译环境
 any Cxxcomplie with cmake on windows7+
 
-Need: libpng
-      glfw3
-	  freetype
+Attention: need libpng glfw3 freetype with "Find---.cmake"
+
+Tips: You can use vcpkg to install these packages with cmake for visual studio.
+
+```shell
+vcpkg install freetype:x64-windows glfw3:x64-windows libpng:x64-windows
+```
+
+(May be you need to replace 'x64' to 'x32')
 
 # 游戏操作
 移动：WASD
@@ -31,17 +37,17 @@ Need: libpng
 
 切换方块：123456789
 
-放置方块：鼠标左键
+消除方块：鼠标左键
 
-消除方块：鼠标右键
+放置方块：鼠标右键
 
 退出：ESC
 
 释放鼠标捕获：左ALT
 
-支持双人联机
+支持双人联机(Buging...)
 
-# 我的链接
+# BuleStorm 的链接
 B站：https://b23.tv/av98281860/p1
 
 微信公众号：软件工程Code
